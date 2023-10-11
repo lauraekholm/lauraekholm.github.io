@@ -1,0 +1,110 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #0B3954;
+  }
+  
+  li {
+    float: center;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #FF5A5F;
+  }
+  
+  .active {
+    background-color: #BFD7EA;
+    color: #000000;
+  }
+
+h1{
+    color: #ffffff;
+    font: size 72px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 200;
+    background-color:#0B3954;
+    text-align: center;
+    border: 0px;
+    padding: 10px;
+    margin: 0px;
+}
+
+h2{
+    color:#ffffff;
+    font-size: 24;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    background-color:#0B3954;
+    text-align: center;
+    letter-spacing: 0.1em;
+    border: 0px;
+    padding: 10px;
+    margin: 0px;
+}
+
+h3{
+    font-size: 24;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+}
+
+h4{
+    font-size: 24;
+    font-family:Arial, Helvetica, sans-serif;
+    border: 0px;
+    padding: 0px;
+    margin: 5px;
+}
+
+h6{
+text-align: center;
+}
+
+p{
+    color:black;
+    font-size: 18;
+    font-family:Arial, Helvetica, sans-serif;
+    border: 0px;
+    padding: 0px;
+    margin: 10px;
+}
+
+.cv-div{
+    border:15px;
+    padding: 15px;
+    margin: 30px;
+}
+
+/* Normaali tyyli */
+.esittelyteksti-div{
+    font-size: 16px; 
+}
+
+/* Pienemmille näytöille */
+@media (max-width: 768px) {
+    .esittelyteksti-div {
+        font-size: 14px;
+    }
+}
+
+a{
+    font-size: 18;
+    font-family:Arial, Helvetica, sans-serif; 
+}
+
+.Tekijänoikeudet-div{
+    text-align: center;
+}
