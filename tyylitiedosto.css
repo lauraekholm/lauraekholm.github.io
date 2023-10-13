@@ -107,20 +107,25 @@ p{
     }
 
     .header h1 {
-        font-size:70pc´x
+        font: size 70px;
     }
-}
-/* Normaali tyyli */
-.esittelyteksti-div{
-    font-size: 16px; 
+
+    .column {
+        float: left;
+        width: 50%;
+    }
+
+    /* clear floats after the columns */
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
 }
 
-/* Pienemmille näytöille */
-@media (max-width: 768px) {
-    .esittelyteksti-div {
-        font-size: 14px;
-    }
-}
+img {
+    max-width: 100%;
+  }
 
 a{
     font-size: 18;
