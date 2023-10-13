@@ -29,7 +29,7 @@ ul {
 
 h1{
     color: #ffffff;
-    font: size 72px;
+    font-size:  72px;
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-weight: 200;
     background-color:#0B3954;
@@ -41,7 +41,7 @@ h1{
 
 h2{
     color:#ffffff;
-    font-size: 24;
+    font-size: 24px;
     font-family:Arial, Helvetica, sans-serif;
     font-weight: 200;
     background-color:#0B3954;
@@ -53,7 +53,7 @@ h2{
 }
 
 h3{
-    font-size: 24;
+    font-size: 24px;
     font-family:Arial, Helvetica, sans-serif;
     font-weight: 800;
     border: 0px;
@@ -62,7 +62,7 @@ h3{
 }
 
 h4{
-    font-size: 24;
+    font-size: 24px;
     font-family:Arial, Helvetica, sans-serif;
     border: 0px;
     padding: 0px;
@@ -70,13 +70,14 @@ h4{
 }
 
 h6{
-    text-align: center;
+    text-align: center;  
+    font-size: 14px;  
     font-family:Arial, Helvetica, sans-serif;
 }
 
 p{
     color:black;
-    font-size: 18;
+    font-size: 18px;
     font-family:Arial, Helvetica, sans-serif;
     border: 0px;
     padding: 0px;
@@ -107,7 +108,7 @@ p{
     }
 
     .header h1 {
-        font: size 70px;
+        font-size 70px;
     }
 
     .column {
@@ -128,7 +129,7 @@ img {
   }
 
 a{
-    font-size: 18;
+    font-size: 18px;
     font-family:Arial, Helvetica, sans-serif; 
 }
 
